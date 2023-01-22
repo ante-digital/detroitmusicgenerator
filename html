@@ -1,0 +1,8 @@
+// create an array of musicians from Detroit
+var musicians = ["whiterosemoxie", "Ademar Locke", "Esei", "K.M.O", "Hi Tech", "FullBodyDurag", "Milfie", "Thee Xper!ence", "Ziggy Waters", "Chase Plato", "Cardo Knight", "Tiny Jag", "DJ Killa Squid", "Tommy Fleece", "Rob Apollo", "Ace 3 Times", "DaBoat", "Curtis Roach", "Nasaan", "Daniel Hex", "Nolan The Ninja", "Zelooperz", "Scoob & Sydney", "Lelo", "ANTVERSON", "B Free"];
+
+// generate a random number between 0 and the last index of the array
+var randomIndex = Math.floor(Math.random() * musicians.length);
+
+// use the random index to display a random musician
+document.getElementById("output").innerHTML = musicians[randomIndex];
